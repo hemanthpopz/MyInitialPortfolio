@@ -1,0 +1,51 @@
+.about-container {
+  background-color: #f9faff;
+}
+
+.about-content-container {
+  padding: 80px;
+}
+
+.about-heading {
+  color: var(--font-high-emphasis, #25282b);
+
+  /* title / h2 */
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px; /* 150% */
+}
+.about-des {
+  color: var(--font-medium-emphasis, #828282);
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+  max-width: 600px;
+  margin-top: 30px;
+}
+
+.resume-btn {
+  background-color: #fdc435;
+  border-width: 0px;
+  padding: 5px 20px 5px 20px;
+  color: var(--font-high-emphasis, #25282b);
+  font-family: Roboto;
+  margin-top: 20px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #fdc435;
+  margin-top: 30px;
+  transition-duration: 0.7s;
+}
+
+.resume-btn:hover {
+  background-color: transparent;
+  color: #fdc435;
+}
